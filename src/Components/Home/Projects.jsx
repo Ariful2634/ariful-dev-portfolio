@@ -18,7 +18,7 @@ const Projects = () => {
                     </p>
                     <li>Created an Admin Route, Moderator Route, User Route. Admin can add users roles, add coupons.</li>
                     <li>Users can post products and upvote the product.</li>
-                    <li>Moderators can accept products marked as featured.</li>
+                    <li>Moderators can accept products and marked them as featured.</li>
                    
                 
             </div>
