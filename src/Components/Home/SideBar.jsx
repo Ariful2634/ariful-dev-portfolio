@@ -1,5 +1,5 @@
 import dp from '../Home../../../assets/SAVE_20210514_205503-fotor-2023121023542.jpg'
-import resume from '../Home../../../assets/Md. Ariful Islam Web Developer.pdf'
+import resume from '../Home../../../assets/Md. Ariful Islam Web Developer .pdf'
 import { FaFacebook, FaFileDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const SideBar = () => {
