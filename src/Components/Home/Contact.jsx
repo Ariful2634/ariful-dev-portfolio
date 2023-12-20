@@ -1,6 +1,5 @@
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
-
 const Contact = () => {
 
     const formRef = useRef();
@@ -59,7 +58,7 @@ const Contact = () => {
 
 
     return (
-        <div>
+        <div >
             <form
                 ref={formRef}
                 onSubmit={handleSubmit}

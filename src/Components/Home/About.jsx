@@ -1,6 +1,7 @@
 
 import Lottie from 'react-lottie';
 import loti from '../../assets/Animation - 1702319763376.json'
+import 'aos/dist/aos.css';
 
 const About = () => {
 
@@ -14,7 +15,7 @@ const About = () => {
     };
 
     return (
-        <div>
+        <div data-aos="zoom-in">
             <div className='flex lg:flex-row flex-col items-center mt-6'>
                 <div>
                     <p className='font-bold text-xl lg:text-2xl font-serif'>Hello, I am <span className='text-blue-600 italic'>Md. Ariful Islam</span></p>

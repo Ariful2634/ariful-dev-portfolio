@@ -1,8 +1,10 @@
 
-
+import 'aos/dist/aos.css';
 const Projects = () => {
     return (
-        <div >
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
             <div className="max-w-5xl mx-auto border p-3 mt-6 rounded">
                 <div className="flex lg:flex-row flex-col items-center justify-between ">
                 <h3 className="font-bold text-2xl">Project Name: <span className="text-green-600">The Tech Hub</span></h3>

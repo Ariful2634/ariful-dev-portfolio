@@ -1,11 +1,12 @@
 import dp from '../Home../../../assets/SAVE_20210514_205503-fotor-2023121023542.jpg'
 import resume from '../Home../../../resume/Md. Ariful Islam Web Developer.pdf'
 import { FaFacebook, FaFileDownload, FaGithub, FaLinkedin } from "react-icons/fa";
+import 'aos/dist/aos.css';
 
 const SideBar = () => {
     return (
-        <div className='lg:w-[260px] w-full lg:min-h-screen shadow-lg  rounded-2xl shadow-gray-600 lg:mt-6'>
-            <div className='flex justify-center pt-10'>
+        <div data-aos="fade-right" className='lg:w-[260px] w-full lg:min-h-screen shadow-lg  rounded-2xl shadow-gray-600 lg:mt-6'>
+            <div data-aos="zoom-in" className='flex justify-center pt-10'>
                 <img className='w-[170px] h-[170px] rounded-full' src={dp} alt="" />
             </div>
             <div>

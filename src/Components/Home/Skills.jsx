@@ -1,8 +1,8 @@
-
+import 'aos/dist/aos.css';
 
 const Skills = () => {
     return (
-        <div>
+        <div data-aos="fade-down">
             <h2 className="text-center mt-4 font-bold text-2xl text-blue-600">I have Experience With These Technologies</h2>
             <div className="grid grid-cols-4 gap-5 mt-8 justify-center items-center lg:ml-20 space-y-6">
 
