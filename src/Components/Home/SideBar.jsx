@@ -16,7 +16,7 @@ const SideBar = () => {
                  */}
                 <div className='text-center mt-3'>
                     <h1 className=" max-w-2xl mb-4  text-xl font-extrabold">
-                        <span className="text-transparent text-3xl bg-clip-text bg-gradient-to-r from-pink-400 to-purple-600">
+                        <span className="text-transparent text-3xl bg-clip-text bg-gradient-to-r from-indigo-500 to-sky-500">
                             Hello, I am {""}
                         </span>{" "}
                         <br></br>
