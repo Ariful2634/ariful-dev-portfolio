@@ -1,5 +1,5 @@
 import dp from '../Home../../../assets/SAVE_20210514_205503-fotor-2023121023542.jpg'
-import resume from '../Home../../../resume/Md. Ariful Islam Web Developer.pdf'
+import resume from '../Home../../../resume/Resume-Md-Ariful Islam-Web-Developer.pdf'
 import { FaFacebook, FaFileDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import 'aos/dist/aos.css';
 // import { motion } from "framer-motion";
@@ -26,7 +26,7 @@ const SideBar = () => {
                                 1000,
                                 "MERN Stack Developer",
                                 1000,
-                                "Fron-end Developer",
+                                "Front-end Developer",
                                 1000,
                                 "Website Builder",
                                 1000,
