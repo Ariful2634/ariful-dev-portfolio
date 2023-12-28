@@ -24,7 +24,7 @@ const Project = ({project}) => {
                 />
             </div>
             <div className="px-5 py-3">
-                <p className="text-white mb-3 font-bold text-lg">{project.title}</p>
+                <p className="text-white text-2xl font-bold mb-3 ">{project.title}</p>
                 <p className="mb-6 text-white font-semibold">{project.description}</p>
             </div>
         </div>
