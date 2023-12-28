@@ -11,14 +11,14 @@ const Project = ({project}) => {
             <div className="relative">
                 <p className="flex absolute rounded-t-lg h-full w-full z-10 opacity-0 hover:opacity-100 bg-black bg-opacity-60 justify-center items-center text-white duration-300 ease-in-out">
                     <a rel="noreferrer" href={project.liveLink} target="_blank">
-                        <VscEye className=" text-3xl hover:text-cyan-400"></VscEye>
+                        <VscEye className=" text-3xl hover:text-green-400"></VscEye>
                     </a>
                     <a rel="noreferrer" href={project.repoLink} target="_blank">
                         <FaCode className="text-3xl ml-5 hover:text-cyan-400"></FaCode>
                     </a>
                 </p>
                 <img
-                    className="h-[230px] w-full mx-auto p-2 rounded-t-lg"
+                    className="h-[250px] w-full mx-auto p-2 rounded-t-lg"
                     src={project.image}
                     alt={` ${project.title} Image`}
                 />

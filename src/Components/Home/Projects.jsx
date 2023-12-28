@@ -40,7 +40,7 @@ const Projects = () => {
 
     return (
         
-        <div id="projects" className="w-11/12 md:w-10/12  mx-auto">
+        <div id="projects" >
           
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-12 gap-4">
                 {items.map((project, idx) => (
