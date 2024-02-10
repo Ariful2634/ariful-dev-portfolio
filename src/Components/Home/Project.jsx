@@ -6,7 +6,7 @@ const Project = ({project}) => {
     return (
         <div
             data-aos="zoom-in-down"
-            className=" bg-gray-500  rounded-lg"
+            className=" bg-gray-500  rounded-lg "
         >
             <div className="relative">
                 <p className="flex absolute rounded-t-lg h-full w-full z-10 opacity-0 hover:opacity-100 bg-black bg-opacity-60 justify-center items-center text-white duration-300 ease-in-out">
